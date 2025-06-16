@@ -1,4 +1,82 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://osobotu.github.io/'
 languageCode = 'en-us'
-title = 'Oduh Stephen Obotu'
+title = 'Stephen Oduh'
 theme = 'typo'
+
+# Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello!'
+homeIntroContent = """
+I am an ML Research Engineer with a background in Mechanical Engineering. I love solving interdisciplinary problems.
+My current research focuses on using Computer Vision techniques to model the biomechanical behaviour of residual limbs.
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/osobotu/"
+
+[[params.social]]
+name = "twitter"
+url = "https://x.com/@osobotu"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/osobotu"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+# [params.giscus]
+# enable = false
+# repo = "user/repo"
+# repoid = "repoId"
+# category = "General"
+# categoryid = "categoryId"
+# mapping = "pathname"
+# theme = "preferred_color_scheme"
