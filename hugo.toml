@@ -38,7 +38,7 @@ listDateFormat = '2 Jan 2006'
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "Home"
+home = "~"
 
 # Social icons
 [[params.social]]
@@ -55,16 +55,21 @@ url = "https://github.com/osobotu"
 
 # Main menu pages
 [[params.menu]]
-name = "home"
+name = "~"
 url = "/"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
+name = "blogs"
+url = "/blogs"
+
+[[params.menu]]
+name = "publications"
+url = "/publications"
 
 [[params.menu]]
 name = "about"
 url = "/about"
+
 
 # Syntax highlight on code blocks
 [markup]
