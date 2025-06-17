@@ -1,3 +1,19 @@
+---
+title: "Face-Search: The Beginning"
+author: "Stephen Oduh"
+authorAvatarPath: "/avatar.JPG"
+date: "2025-06-16"
+summary: "A computer vision based image search project."
+description: "A computer vision based image search project."
+toc: true
+readTime: true
+autonumber: true
+math: true
+tags: ["python", "CV"]
+showTags: false
+draft: true
+---
+
 
 # Blog Entries
 

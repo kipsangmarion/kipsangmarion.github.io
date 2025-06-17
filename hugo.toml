@@ -3,20 +3,18 @@ languageCode = 'en-us'
 title = 'Stephen Oduh'
 theme = 'typo'
 
-# Google analytics code
-# googleAnalytics = "G-xxxxxxxxx"
-
 [taxonomies]
 tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "Herein lies my thoughts and scientific explorations written on the moon"
+
 
 # Appearance settings
 theme = 'auto'
-colorPalette = 'default'
-hideHeader = false
+colorPalette = 'base16-ocean'
+hideHeader = true
 
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello!'
@@ -38,7 +36,7 @@ listDateFormat = '2 Jan 2006'
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "~"
+home = "home"
 
 # Social icons
 [[params.social]]
@@ -54,13 +52,13 @@ name = "github"
 url = "https://github.com/osobotu"
 
 # Main menu pages
-[[params.menu]]
-name = "~"
-url = "/"
+# [[params.menu]]
+# name = "home"
+# url = "/"
 
 [[params.menu]]
-name = "blogs"
-url = "/blogs"
+name = "posts"
+url = "/posts"
 
 [[params.menu]]
 name = "publications"
